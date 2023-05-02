@@ -19,7 +19,9 @@ app.use(
 
 //! DAVINCI
 
-
+app.get("hello",(req,res)=>{
+  return res.send("kiya haal hai")
+})
 
 //! TURBO
 app.post("/api/rewrite", async (req, res) => {
