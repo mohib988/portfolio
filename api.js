@@ -19,7 +19,7 @@ app.use(
 
 //! DAVINCI
 
-app.get("hello",(req,res)=>{
+app.get("/hello",(req,res)=>{
   return res.send("kiya haal hai")
 })
 
